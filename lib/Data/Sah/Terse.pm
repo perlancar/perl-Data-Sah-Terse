@@ -99,16 +99,6 @@ Options:
 =back
 
 
-=head1 TODO
-
-Provide more options, e.g. allow showing some clauses (.e.g "int>10").
-
-Show hash as "hash[str=>array]" or just "hash[array]"? Consider that we will
-allow subschemas in the future, e.g. "hash[filename=>filespec]".
-
-Handle '!of' (of.op=not), 'of&' (of.op=and), 'of!' (of.op=or).
-
-
 =head1 SEE ALSO
 
 L<Data::Sah::Compiler::human>
